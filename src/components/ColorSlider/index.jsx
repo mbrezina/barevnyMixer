@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './style.css';
 
-
 const ColorSlider = ({baseColor, colorName, onValueChange}) => {
 
 const classNameForColor = `slider slider--${baseColor}`;

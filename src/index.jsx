@@ -4,7 +4,7 @@ import './style.css';
 import ColorSlider from "./components/ColorSlider";
 
 const App = () => {
-    const [redValue, setRedValue] = useState(255);
+    const [redValue, setRedValue] = useState(0);
     const [greenValue, setGreenValue] = useState(0);
     const [blueValue, setBlueValue] = useState(0);
 
